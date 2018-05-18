@@ -105,11 +105,11 @@ View::renderTemplate('Home/index.html', [
 ]);
 ```
 
-A sample Twig template is included in [App/Views/Home/index.html](App/Views/Home/index.html) that inherits from the base template in [App/Views/base.html](App/Views/base.html).
+A sample Twig template is included in [App/Views/Home/index.html](App/Views/Page/index.html) that inherits from the base template in [App/Views/base.html](App/Views/baseOrig.html).
 
 ## Models
 
-Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the `Core\Model` class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/User.php](App/Models/User.php). You can get the PDO database connection instance like this:
+Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the `Core\Model` class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/User.php](App/Models/Account.php). You can get the PDO database connection instance like this:
 
 ```php
 $db = static::getDB();

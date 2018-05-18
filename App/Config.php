@@ -20,7 +20,7 @@ class Config
      * Database name
      * @var string
      */
-    const DB_NAME = 'fairsoft';
+    const DB_NAME = 'Webshop';
 
     /**
      * Database user

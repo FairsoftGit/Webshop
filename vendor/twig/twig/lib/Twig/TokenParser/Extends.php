@@ -14,7 +14,7 @@
  * Extends a template by another one.
  *
  * <pre>
- *  {% extends "base.html" %}
+ *  {% extends "baseOrig.html" %}
  * </pre>
  */
 final class Twig_TokenParser_Extends extends Twig_TokenParser

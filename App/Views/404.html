@@ -3,8 +3,16 @@
 {% block title %}Page not found{% endblock %}
 
 {% block body %}
-
-    <h1>Page not found</h1>
-    <p>Sorry, that page doesn't exist.</p>
-
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Foutpagina</li>
+    </ol>
+</nav>
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Oeps!</h4>
+    <p>Sorry deze pagina is niet gevonden. (404)</p>
+    <hr>
+    <a href="/" class="mb-0"><b>Weg hier</b></a>
+</div>
 {% endblock %}

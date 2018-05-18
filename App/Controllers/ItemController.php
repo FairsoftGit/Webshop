@@ -14,6 +14,22 @@ use App\Models\Item;
 class ItemController extends \Core\Controller
 {
     /**
+     * Before filter. Return false to stop the action from executing.
+     *
+     * @return void
+     */
+    protected function before()
+    {
+        if(!$this->isAuthenticated()){
+            header('location: /account/login');
+            return false;
+        }
+        $account = $_SESSION['account'];
+        return $account->hasPrivilege("product");
+    }
+
+
+    /**
      * Show the index page
      *
      * @return void

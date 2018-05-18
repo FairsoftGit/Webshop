@@ -11,6 +11,14 @@ use \Core\View;
  */
 class HomeController extends \Core\Controller
 {
+    protected function before()
+    {
+//       if(!$this->isAuthenticated()){
+//           header('location: /account/login');
+//           return false;
+//        }
+    }
+
     /**
      * Show the index page
      *

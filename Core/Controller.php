@@ -9,7 +9,6 @@ namespace Core;
  */
 abstract class Controller
 {
-
     /**
      * Parameters from the matched route
      * @var array
@@ -51,6 +50,13 @@ abstract class Controller
         } else {
             throw new \Exception("Method $method not found in controller " . get_class($this));
         }
+    }
+
+    public function isAuthenticated(){
+        if(isset($_SESSION['account'])){
+            return true;
+        }
+        return false;
     }
 
     /**

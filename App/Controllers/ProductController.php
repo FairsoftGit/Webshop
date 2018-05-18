@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controllers;
-
 use App\Models\Product;
 use \Core\View;
 
@@ -13,13 +12,28 @@ use \Core\View;
 class ProductController extends \Core\Controller
 {
     /**
+     * Before filter. Return false to stop the action from executing.
+     *
+     * @return void
+     */
+    protected function before()
+    {
+        if(!$this->isAuthenticated()){
+            header('location: /account/login');
+            return false;
+        }
+       $account = $_SESSION['account'];
+       return $account->hasPrivilege("product");
+    }
+
+    /**
      * Show the index page
      *
      * @return void
      */
     public function indexAction()
     {
-        View::renderTemplate('Product/index.html', ['products' => Product::getAll() ]);
+        View::renderTemplate('Product/index.html', ['products' => Product::getAll(), 'account' => $_SESSION['account'] ]);
     }
 
     public function editAction()
@@ -69,9 +83,9 @@ class ProductController extends \Core\Controller
 
     public function deleteAction()
     {
-        if(isset($_GET['Id']))
+        if(isset($_POST['id']))
         {
-            $id = intval($_GET['Id']);
+            $id = intval($_POST['id']);
             Product::delete($id);
             header('location: /product/index');
         }
