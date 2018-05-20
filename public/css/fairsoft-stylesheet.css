@@ -1,230 +1,252 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
+/* CSS Document */
 body {
+    background: black;
     /* Circular gradient effect in dark background */
     background: -webkit-radial-gradient(circle, #515151, #000);
     background: -o-radial-gradient(circle, #515151, #000);
     background: -moz-radial-gradient(circle, #515151, #000);
     background: radial-gradient(circle, #515151, #000);
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-    margin-bottom: 190px; /*Set margin bottom for sticky footer*/
+    /* Define font(-size) for website */
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 16px;
 }
 
-a{
-    color: #F6A017;
-}
-
-a:hover{
-    color: #c48012;
-}
-
-#shopping-cart{
-    font-size:2em;
-    color: white;
-}
-
-#shopping-cart:hover{
-    color: #F6A017;
-}
 
 /** OPMAAK HEADER **/
+#header {
+    /*Create orange line under header*/
+    border-bottom: 1px solid #F6A017;
+    /*Center logo*/
+    text-align: center;
+    padding: 1px 0;
+}
 
-#headerLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+header > img#logo {
+    min-width: 300px;
     width: 50%;
-}
-
-.card{
-    border: 1px solid #F6A017;
-}
-
-.card-header{
-    background-color: #ccc6bd;
-    font-weight: bold;
-}
-
-.card-body{
-    background-color: #E3DCD2;
-}
-
-.product-card{
-    background-color: white;
-    border: 1px solid #343a40;
-    box-shadow: 0px 2px 20px 6px rgba(0, 0, 0, 0.6), 4px 4px 20px 10px rgba(0, 0, 0, 0.19);
+    margin: 30px 10px;
 }
 
 /** OPMAAK MENU **/
-
-.navbar {
-    font-weight: bold !important;
-    letter-spacing: 1px;
-    border-style: solid;
-    border-color: #F6a017;
-    border-width: 1px 1px 1px 1px;
+.navbar{
+    /*Override bootstrap to put navbar at bottom of header*/
+    margin-bottom: 0px;
+    background-color:#333;
+    padding: 0 8px;
 }
 
-.dropdown-item a:focus, .dropdown-menu > a:hover {
-    background-color: #343a40;
-    color: #F6A017;
-}
-
-.navbar-nav .nav-item .nav-link{
-    color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
-    color: #F6A017;
-}
-
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
-    color: #F6A017;
-}
-
-.dropdown-item {
+#myNavbar,
+.navbar li > a{
     font-weight: bold;
-    color: white;
+    letter-spacing: 1px;
 }
 
-.navbar-nav > li.dropdown.show .dropdown-menu {
-    background-color: #343a40;
-    border-color: #F6A017;
-    border-width: 0 0 0 0;
+/*Selected menu-item*/
+.navbar li.selected{
+    background-color: #000;
 }
+.navbar .navbar-nav li.selected > a{
+    color:#F6A017;
+}
+/**/
 
 /*CSS to alter menu to collapsed mode*/
-@media (min-width: 768px) {
-
+@media (min-width: 768px){
     /*Stretch out menu items*/
-    .navbar-nav {
-        display: table;
+    .navbar-nav{
+        display:table;
         table-layout: auto;
-        float: none;
+        float:none;
         width: 100%;
     }
-
-    .navbar-nav > li {
-        display: table-cell;
-        float: none;
+    .navbar-nav>li{
+        display:table-cell;
+        float:none;
         text-align: center;
     }
+    /**/
 
-    .navbar-nav > li.dropdown.show {
+    /*Hide Logo in navbar*/
+    .navbar-brand{
+        padding: 7px 15px;
+        max-width: 70%;
+        display: none;
+    }
+
+    /** OPMAAK SUBMENU **/
+    /** Change appearance of submenu on small devices **/
+
+    /**DROPDOWN**/
+    .nav > li.dropdown.open {
         position: static;
     }
-
-    .dropdown-menu {
+    .dropdown-menu{
         padding: 0;
     }
-
-    .dropdown-item {
-        width: 0;
+    .dropdown-menu > li {
         display: table-cell;
         height: 50px;
         line-height: 50px;
         vertical-align: middle;
-        border-style: solid;
-        border-color: #F6a017;
-        border-width: 0 1px 1px 1px;
+    }
+    .dropdown-menu > li > a {
+        color: #9d9d9d;/*Same color as navbar inverse style*/
+        display: block;
+        height: 100%;
+        line-height: inherit;
+    }
+    .dropdown-menu > li > a:focus,
+    .dropdown-menu > li > a:hover {
+        background-color: #000;
+        color: #F6A017;
     }
 
-    .navbar-nav > li.dropdown.show .dropdown-menu {
+    .nav > li.dropdown.open .dropdown-menu {
+        background-color: #222222;
         display: table;
-        border-width: 1px 0 0 0;
+        border: 1px solid #F6A017;
+        border-radius: 0 0 4px 4px;
         width: 100%;
         text-align: center;
-        margin-top: -1px; /*Necessary to line up with the border of the header*/
+        margin-top: 2px; /*Necessary to line up with the border of the header*/
     }
 }
 
 @media (max-width: 768px) {
+    /*Move logo to navbar when collapsed*/
+    #logo{
+        display: none;
+    }
+    .navbar-brand{
+        padding: 7px 15px;
+        max-width: 70%;
+        display: block;
+    }
+    #navBarImg{
+        height: 36px;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
 }
 
-.breadcrumb{
+/** OPMAAK MAIN GEDEELTE **/
+main{
     background-color: #E3DCD2;
-    margin: 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+#fairRentTable a {
+    text-decoration: none;
+}
+
+#appStoreBadge {
+    vertical-align: middle;
+}
+
+/** OPMAAK AFBEELDING IN PAGINA **/
+.content-img-container{
+    text-align: center;
+}
+
+.content-img{
+    width:100%;
+    max-width:500px;
+    margin-top: 40px;
+}
+
+.page-header {
+    border-bottom: 1px solid #F6A017;
 }
 
 /** OPMAAK sitemap pagina **/
-#sitemap ul {
+#sitemap ul{
     list-style-type: none;
     /*padding-left: 0px;*/
 }
 
-#sitemap a {
+#sitemap a{
     color: rgb(51, 51, 51);
     text-decoration: none;
 }
-
-#sitemap a:hover {
+#sitemap a:hover{
     color: #F6A017;
 }
 
 /** OPMAAK faq pagina **/
 
 /*  Define width of table*/
-#faq table {
+#faq table{
     width: 100%;
 }
 
 /*Align all text in table to top*/
-#faq table tr td {
+#faq table tr td{
     vertical-align: top;
 }
-
 /* Make all Q's and A's bold and orange*/
-#faq table tr td:first-child {
+#faq table tr td:first-child{
     width: 5%;
     font-weight: bold;
     color: #F6A017;
 }
-
 /* Make all Q's bold */
-#faq table tr:nth-child(odd) {
+#faq table tr:nth-child(odd){
     font-weight: bold;
 }
-
 /*Create space between every Q&A*/
-#faq table tr:nth-child(even) td {
+#faq table tr:nth-child(even) td{
     padding-bottom: 20px;
 }
 
 
-footer {
-    border-width: 1px 0 0 0;
-    border-style: solid;
-    border-color: #F6a017;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 171px;
+/** OPMAAK FOOTER **/
+
+#footer ul {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#footer{
+    border-top: 1px solid #F6A017;
+    color: white;
 }
 
-.footerHeader {
+footer{
+    background-color: #222222;
+    border: 1px solid #080808;
+    border-radius: 4px;
+    min-height: 50px;
+    padding: 15px;
+
+}
+
+footer p{
     color: #F6a017;
-    font-size: 1.4em;
+    font-size: 18px;
     font-weight: bold;
 }
 
-footer a, footer li {
+footer a{
     color: white;
     text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover{
     color: #F6A017;
     text-decoration: none;
 }
 
-#footerColSocialMedia li {
+#footerCol4 li{
     display: inline-block;
 }
 
-#footerColSocialMedia img {
+#footerCol4 img{
     width: 75px;
-    margin-bottom: 5px;
+    margin-bottom:5px;
 }
