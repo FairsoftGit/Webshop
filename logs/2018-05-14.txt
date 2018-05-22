@@ -1,0 +1,33 @@
+[14-May-2018 21:51:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsdfsdfAction not found in controller App\Controllers\ItemController'
+Stack trace: #0 C:\xampp\htdocs\fairboard\Core\Router.php(121): Core\Controller->__call('indexsdfsdf', Array)
+#1 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('item/indexsdfsd...')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Controller.php' on line 51
+[14-May-2018 21:51:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('items')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Router.php' on line 130
+[14-May-2018 21:56:02 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsdfAction not found in controller App\Controllers\PermissionController'
+Stack trace: #0 C:\xampp\htdocs\fairboard\Core\Router.php(121): Core\Controller->__call('indexsdf', Array)
+#1 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('permission/inde...')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Controller.php' on line 51
+[14-May-2018 21:56:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsdfAction not found in controller App\Controllers\PermissionController'
+Stack trace: #0 C:\xampp\htdocs\fairboard\Core\Router.php(121): Core\Controller->__call('indexsdf', Array)
+#1 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('permission/inde...')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Controller.php' on line 51
+[14-May-2018 21:56:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsdfAction not found in controller App\Controllers\PermissionController'
+Stack trace: #0 C:\xampp\htdocs\fairboard\Core\Router.php(121): Core\Controller->__call('indexsdf', Array)
+#1 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('permission/inde...')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Controller.php' on line 51
+[14-May-2018 21:57:35 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsdfAction not found in controller App\Controllers\PermissionController'
+Stack trace: #0 C:\xampp\htdocs\fairboard\Core\Router.php(121): Core\Controller->__call('indexsdf', Array)
+#1 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('permission/inde...')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Controller.php' on line 51
+[14-May-2018 21:57:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairboard\public\index.php(35): Core\Router->dispatch('permissd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairboard\Core\Router.php' on line 130

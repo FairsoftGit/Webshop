@@ -1,0 +1,164 @@
+[16-May-2018 20:24:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/logo-white....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/aboutUs-pic...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/twitter.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/pin.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:24:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('img/logo-white....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/index.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/logo-w...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/twitte...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/pin.pn...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/logo-w...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/twitte...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/pin.pn...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(35): Core\Router->dispatch('test/img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:29:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('index.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/logo-w...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/twitte...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/pin.pn...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:30:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/logo-w...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/logo-w...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/twitte...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/pin.pn...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('test/img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:34:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('account/login')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:35:02 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(34): Core\Router->dispatch('aboutUs')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:13 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/d')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/img/logo-whit...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/img/fb.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/img/pin.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/img/yt.png')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130
+[16-May-2018 20:37:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\fairsoft\public\index.php(36): Core\Router->dispatch('d/img/twitter.p...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\fairsoft\Core\Router.php' on line 130

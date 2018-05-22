@@ -95,10 +95,12 @@ a:hover{
     border-width: 0 0 0 0;
 }
 
-/*CSS to alter menu to collapsed mode*/
-@media (min-width: 768px) {
+@media (min-width: 576px) {  }
 
-    /*Stretch out menu items*/
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px)
+{
     .navbar-nav {
         display: table;
         table-layout: auto;
@@ -140,8 +142,9 @@ a:hover{
     }
 }
 
-@media (max-width: 768px) {
-}
+@media (min-width: 1200px) {  }
+
+
 
 .breadcrumb{
     background-color: #E3DCD2;
