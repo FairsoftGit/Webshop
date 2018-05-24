@@ -12,7 +12,7 @@
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 /**
- * Error and Exception handling
+ * Error and Exception handlingloc
  */
 error_reporting(E_ALL);
 set_error_handler('Core\Error::errorHandler');
@@ -39,7 +39,8 @@ $router->add('payments', ['controller' => 'page', 'action' => 'payments']);
 $router->add('sitemap', ['controller' => 'page', 'action' => 'sitemap']);
 $router->add('techSupport', ['controller' => 'page', 'action' => 'techSupport']);
 $router->add('terms', ['controller' => 'page', 'action' => 'terms']);
-$router->add('{controller}/{action}');
+
+$router->add('shop/addProduct/{id:\d+}', ['controller' => 'shop', 'action' => 'addProduct']);
 
 if(!session_id())
 {

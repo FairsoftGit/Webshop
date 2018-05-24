@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Fairsoft{% endblock %}
 {% block body %}
-<div class="card">
+<div class="card content-card">
     <div class="card-header">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -28,15 +28,27 @@
                         GPS positie en eventuele hits naar de Fair Cloud.</p>
                     <p>De hoezen zijn in verschillende maten en vormgevingen leverbaar.</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card product-card mx-auto">
-                        <img class="card-img-top" src="/img/fairVest-pic.png" alt="FairVest">
+
+                <div class="col-md-4 mx-auto">
+                    <div class="card product-card w-75">
+                        <img class="card-img-top img-fluid" src="/img/fairVest-pic.png" alt="FairVest">
+                        <hr/>
                         <div class="card-body">
-                            <h3>FairVest</h3>
+                            <h5 class="card-title">FairVest</h5>
                             <h4>€988.00</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-                                dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam
-                                sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+                            <p class="card-text">Tactical vest</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-fairsoft" href="/shop/addProduct/33" role="button">
+                                <div class="addProductButton">
+                                <i class="fas fa-plus">&nbsp;In winkelwagen</i>
+                                </div>
+                            </a>
+                            <!--<button type="button" value="33" class="btn btn-fairsoft addProduct">-->
+                                <!--<div class="addProductButton">-->
+                                    <!--<i class="fas fa-plus">&nbsp;In winkelwagen</i>-->
+                                <!--</div>-->
+                            <!--</button>-->
                         </div>
                     </div>
                 </div>
@@ -44,4 +56,17 @@
         </div>
     </div>
 </div>
+{% endblock %}
+{% block pageScript %}
+<!--<script>-->
+    <!--$( ".addProduct" ).click(function() {-->
+        <!--$.post('/shop/addProduct', {productId: $(this).val()})-->
+            <!--.done(function (data) {-->
+                <!--alert('done');-->
+            <!--})-->
+            <!--.fail(function () {-->
+                <!--alert("Er is iets fout gegaan.");-->
+            <!--});-->
+    <!--});-->
+<!--</script>-->
 {% endblock %}

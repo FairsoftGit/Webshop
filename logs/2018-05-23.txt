@@ -1,0 +1,311 @@
+[23-May-2018 20:59:29 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 20:59:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/img/logo...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 20:59:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/img/fb.p...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 20:59:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/img/twit...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 20:59:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/img/pin....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 20:59:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('htdocs/img/yt.p...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:03:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(52): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:07:53 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:11:11 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined offset: 1'
+Stack trace: #0 C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php(15): Core\Error::errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 [internal function]: App\Controllers\ShopController->addProductAction()
+#2 C:\xampp\htdocs\Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Webshop\Core\Router.php(121): Core\Controller->__call('addProduct', Array)
+#4 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/addProd...')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php' on line 15
+[23-May-2018 21:11:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/log...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:11:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:11:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:11:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:11:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:20:11 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined offset: 1'
+Stack trace: #0 C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php(15): Core\Error::errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 [internal function]: App\Controllers\ShopController->addProductAction()
+#2 C:\xampp\htdocs\Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Webshop\Core\Router.php(121): Core\Controller->__call('addProduct', Array)
+#4 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/addProd...')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php' on line 15
+[23-May-2018 21:22:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/log...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:22:22 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:22:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:22:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:22:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:23:19 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined offset: 0'
+Stack trace: #0 C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php(15): Core\Error::errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 [internal function]: App\Controllers\ShopController->addProductAction()
+#2 C:\xampp\htdocs\Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Webshop\Core\Router.php(121): Core\Controller->__call('addProduct', Array)
+#4 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/addProd...')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php' on line 15
+[23-May-2018 21:23:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/log...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:23:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:23:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:23:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:23:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:26:37 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined offset: 0'
+Stack trace: #0 C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php(15): Core\Error::errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 [internal function]: App\Controllers\ShopController->addProductAction()
+#2 C:\xampp\htdocs\Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Webshop\Core\Router.php(121): Core\Controller->__call('addProduct', Array)
+#4 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/addProd...')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\App\Controllers\ShopController.php' on line 15
+[23-May-2018 21:26:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/log...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:26:38 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:26:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:26:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:27:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:48:32 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:48:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:48:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:48:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(54): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/addProd...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/img/log...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/img/fb....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/img/pin...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/img/yt....')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/23/img/twi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:50:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:51:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:51:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:51:01 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:51:01 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:51:01 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 21:53:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(57): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:09 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined index: controller'
+Stack trace: #0 C:\xampp\htdocs\Webshop\Core\Router.php(109): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/1123')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 109
+[23-May-2018 22:04:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/lo...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/yt...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:38 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/fb...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/pi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/tw...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:44 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined index: controller'
+Stack trace: #0 C:\xampp\htdocs\Webshop\Core\Router.php(109): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/1123')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 109
+[23-May-2018 22:04:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/lo...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/fb...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:04:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/tw...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:05:03 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined index: controller'
+Stack trace: #0 C:\xampp\htdocs\Webshop\Core\Router.php(109): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/1123')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 109
+[23-May-2018 22:05:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/lo...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:05:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/tw...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:05:13 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/pi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:05:14 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(58): Core\Router->dispatch('shop/add/img/fb...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(60): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(60): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(60): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(60): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(50): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(50): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(50): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(50): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130
+[23-May-2018 22:27:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\Webshop\public\index.php(50): Core\Router->dispatch('shop/addProduct...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Webshop\Core\Router.php' on line 130

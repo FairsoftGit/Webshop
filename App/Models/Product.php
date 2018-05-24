@@ -11,6 +11,7 @@ use PDO;
  */
 class Product extends \Core\Model
 {
+
     /**
      * Get all the all the products as an associative array
      * @return array
