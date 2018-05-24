@@ -14,25 +14,25 @@ class Config
      * Database host
      * @var string
      */
-    const DB_HOST = '127.0.0.1';
+    const DB_HOST = '178.251.31.13:3306';
 
     /**
      * Database name
      * @var string
      */
-    const DB_NAME = 'Webshop';
+    const DB_NAME = 'liannela_fsdb';
 
     /**
      * Database user
      * @var string
      */
-    const DB_USER = 'root';
+    const DB_USER = 'liannela_superuser';
 
     /**
      * Database password
      * @var string
      */
-    const DB_PASSWORD = '';
+    const DB_PASSWORD = '6Z0wKRrPyg';
 
     /**
      * Show or hide error messages on screen
