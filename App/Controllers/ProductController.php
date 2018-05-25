@@ -31,7 +31,6 @@ class ProductController extends \Core\Controller
 
         $id = $this->route_params["id"];
         $product = Product::constructFromDatabase($id);
-        $kaas = $product->kaas;
         View::renderTemplate('Product/index.html', ["product" => $product]);
     }
 
