@@ -11,20 +11,10 @@ use PDO;
  */
 class Product extends \Core\Model
 {
-    public $id;
-    public $productName;
-    public $productDesc;
-    public $salesPrice;
-    public $kaas;
-
-    public function __construct($productId, $productName, $productDesc, $salesPrice)
-    {
-        $this->id = $productId;
-        $this->productName = $productName;
-        $this->productDesc = $productDesc;
-        $this->salesPrice = $salesPrice;
-        $this->kaas = 'Brie';
-    }
+    private $productId;
+    private $productName;
+    private $productDesc;
+    private $salesPrice;
 
     public static function constructFromDatabase($id)
     {
@@ -33,7 +23,27 @@ class Product extends \Core\Model
         $stmt = $db->prepare('select `productId`, `productName`, `productDesc`, `salesPrice` from `product` WHERE `productId` = :id');
         $stmt->bindParam(':id', $id);
         $stmt->execute();
-        return $stmt->fetchObject('App\Models\Product' ,['productId', 'productName', 'productDesc', 'salesPrice']);
+        return $stmt->fetchObject('App\Models\Product');
+    }
+
+    public function getProductId()
+    {
+        return $this->productId;
+    }
+
+    public function getProductName()
+    {
+        return $this->productName;
+    }
+
+    public function getProductDesc()
+    {
+        return $this->productDesc;
+    }
+
+    public function getSalesPrice()
+    {
+        return $this->salesPrice;
     }
 
 }
