@@ -7,9 +7,4 @@ databaseSettings.xml
 debugger.xml
 editor.xml
 filetypes.xml
-/.idea/workspace.xml
 /logs/
-=======
-.idea/workspace.xml
-logs
->>>>>>> ecb72a27255e1ff8c8f2df9354add2f1c7b01685
