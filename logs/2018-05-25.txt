@@ -1,0 +1,162 @@
+[25-May-2018 10:16:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/lo...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:16:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/tw...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:16:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/yt...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:16:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/fb...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:16:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/pi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/lo...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/imgUrl')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/fb...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/tw...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/pi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/yt...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/lo...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/imgUrl')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/fb...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/tw...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/pi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/yt...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/log...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/imgUrl')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/fb....')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/twi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/pin...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:22:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/yt....')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:16 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character "$".'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Lexer.php(202): Twig_Lexer->lexExpression()
+#1 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Lexer.php(105): Twig_Lexer->lexVar()
+#2 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(512): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->tokenize(Object(Twig_Source))
+#4 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Product/index.h...')
+#6 D:\xampp\htdocs\ELU14-Webshop\Core\View.php(51): Twig_Environment->render('Product/index.h...', Array)
+#7 D:\xampp\htdocs\ELU14-Webshop\App\Controllers\ProductController.php(34): Core\View::renderTemplate('Product/index.h...', Array)
+#8 [internal function]: App\Controllers\ProductController->indexAction()
+#9 D:\xampp\htdocs\ELU14-Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\ELU14-Webshop\Core\Router.php(121): Core\Controller->__call('index', Array)
+#11 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/2')
+#12 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\App\Views\Product\index.html' on line 11
+[25-May-2018 10:23:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/log...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/fb....')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/twi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/yt....')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairBox/img/pin...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character "$".'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Lexer.php(202): Twig_Lexer->lexExpression()
+#1 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Lexer.php(105): Twig_Lexer->lexVar()
+#2 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(512): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->tokenize(Object(Twig_Source))
+#4 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 D:\xampp\htdocs\ELU14-Webshop\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Product/index.h...')
+#6 D:\xampp\htdocs\ELU14-Webshop\Core\View.php(51): Twig_Environment->render('Product/index.h...', Array)
+#7 D:\xampp\htdocs\ELU14-Webshop\App\Controllers\ProductController.php(34): Core\View::renderTemplate('Product/index.h...', Array)
+#8 [internal function]: App\Controllers\ProductController->indexAction()
+#9 D:\xampp\htdocs\ELU14-Webshop\Core\Controller.php(47): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\ELU14-Webshop\Core\Router.php(121): Core\Controller->__call('index', Array)
+#11 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/1')
+#12 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\App\Views\Product\index.html' on line 11
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/lo...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/fb...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/tw...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/yt...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
+[25-May-2018 10:23:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\ELU14-Webshop\public\index.php(50): Core\Router->dispatch('fairVest/img/pi...')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\ELU14-Webshop\Core\Router.php' on line 130
