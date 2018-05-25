@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Letop !!!!!!!!!{% endblock %}
+{% block title %}product.getProductName(){% endblock %}
 {% block pageCss %}
 {% endblock %}
 {% block body %}
@@ -16,11 +16,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                   {{product.productDesc}}
+                   {{product.getProductDesc()}}
                 </div>
                 <div class="col-md-4 mx-auto">
                     <div class="card product-card w-75">
-                        <img class="card-img-top img-fluid" src="{{product.imgUrl}}" alt="FairVest">
+                        <img class="card-img-top img-fluid" src="{{product.getImgUrl()}}" alt="FairVest">
                         <hr/>
                         <div class="card-body">
                             <h5 class="card-title">FairVest</h5>
