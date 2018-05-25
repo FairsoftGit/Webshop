@@ -12,21 +12,28 @@ use PDO;
 class Product extends \Core\Model
 {
     public $id;
-    public $name;
-    public $price;
+    public $productName;
+    public $productDesc;
+    public $salesPrice;
+    public $kaas;
 
-    public function __construct($id, $name, $price)
+    public function __construct($productId, $productName, $productDesc, $salesPrice)
     {
-        $this->id = $id;
-        $this->name = $name;
-        $this->price = $price;
+        $this->id = $productId;
+        $this->productName = $productName;
+        $this->productDesc = $productDesc;
+        $this->salesPrice = $salesPrice;
+        $this->kaas = 'Brie';
     }
 
     public static function constructFromDatabase($id)
     {
         $db = static::getDB();
-        $stmt = $db->prepare('select `id`, `name`, `price` from `product`');
+
+        $stmt = $db->prepare('select `productId`, `productName`, `productDesc`, `salesPrice` from `product` WHERE `productId` = :id');
+        $stmt->bindParam(':id', $id);
         $stmt->execute();
-        return $stmt->fetch(PDO::FETCH_CLASS);
+        return $stmt->fetchObject('App\Models\Product' ,['productId', 'productName', 'productDesc', 'salesPrice']);
     }
+
 }

@@ -1,7 +1,6 @@
 <?php
 
 namespace App;
-
 /**
  * Application configuration
  *
@@ -9,7 +8,6 @@ namespace App;
  */
 class Config
 {
-
     /**
      * Database host
      * @var string

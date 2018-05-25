@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Fairsoft{% endblock %}
+{% block pageCss %}
+{% endblock %}
 {% block body %}
 <div class="card content-card">
     <div class="card-header">
@@ -44,11 +46,6 @@
                                 <i class="fas fa-plus">&nbsp;In winkelwagen</i>
                                 </div>
                             </a>
-                            <!--<button type="button" value="33" class="btn btn-fairsoft addProduct">-->
-                                <!--<div class="addProductButton">-->
-                                    <!--<i class="fas fa-plus">&nbsp;In winkelwagen</i>-->
-                                <!--</div>-->
-                            <!--</button>-->
                         </div>
                     </div>
                 </div>
@@ -58,15 +55,4 @@
 </div>
 {% endblock %}
 {% block pageScript %}
-<!--<script>-->
-    <!--$( ".addProduct" ).click(function() {-->
-        <!--$.post('/shop/addProduct', {productId: $(this).val()})-->
-            <!--.done(function (data) {-->
-                <!--alert('done');-->
-            <!--})-->
-            <!--.fail(function () {-->
-                <!--alert("Er is iets fout gegaan.");-->
-            <!--});-->
-    <!--});-->
-<!--</script>-->
 {% endblock %}
