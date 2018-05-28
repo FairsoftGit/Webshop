@@ -17,9 +17,15 @@
     {% endblock %}
 </head>
 <body>
-    <img class="d-none d-sm-block" src="../img/logo-white.png" align="middle" alt="Logo Fairsoft" id="headerLogo">
+    <!-- Logo -->
+    <img class="d-none d-lg-block" src="../img/logo-white.png" align="middle" alt="Logo Fairsoft" id="headerLogo">
+    <!-- End logo -->
+
+    <!-- Navigation -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">Fairsoft</a>
+        <a class="navbar-brand" href="/">
+            <img id="navBarImg" src="../img/logo-white.png" alt="Fairsoft">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fairsoftNavbar"
                 aria-controls="fairsoftNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,61 +88,69 @@
             {% endblock %}
         </div>
     </nav>
-<main role="main" class="container-fluid my-3">
-    {% block body %}
-    {% endblock %}
-</main>
-<footer>
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col" id="footerColGeneral">
-                <h2 class="footerHeader">Fairsoft</h2>
-                <ul class="mt-3">
-                    <li><a href="faq.php">Veelgestelde vragen</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="algemeneVoorwaarden.php">Algemene Voorwaarden</a></li>
-                    <li><a href="sitemap.php">Sitemap</a></li>
-                </ul>
-            </div>
-            <div class="col" id="footerColCustomerService">
-                <h2 class="footerHeader">Klantenservice</h2>
-                <ul class="mt-3">
-                    <li><a href="orderAndDelivery.php">Bestellen en leveren</a></li>
-                    <li><a href="payments.php">Betaling</a></li>
-                    <li><a href="fairRent.php">Verhuur</a></li>
-                </ul>
-            </div>
-            <div class="col" id="footerColContact">
-                <h2 class="footerHeader">Contact informatie</h2>
-                <ul class="mt-3">
-                    <li>Hogeschoollaan 1, Breda</li>
-                    <li>088-1234567</li>
-                    <li><a href="mailto:jhel@avans.nl">info@fairsoft.nl</a></li>
-                    <li>24/7 bereikbaar</li>
-                </ul>
-            </div>
-            <div class="col" id="footerColSocialMedia">
-                <h2 class="footerHeader">Social media</h2>
-                <ul class="mt-3">
-                    <li><img src="../img/fb.png" alt="Facebook"></li>
-                    <li><img src="../img/twitter.png" alt="Twitter"></li>
-                    <li><img src="../img/pin.png" alt="Pinterest"></li>
-                    <li><img src="../img/yt.png" alt="Youtube"></li>
-                </ul>
+    <!-- End Navigation -->
+
+    <!-- Content -->
+    <main role="main" class="container-fluid my-3">
+        {% block body %}
+        {% endblock %}
+    </main>
+    <!-- End content -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col" id="footerColGeneral">
+                    <h2 class="footerHeader">Fairsoft</h2>
+                    <ul class="mt-3">
+                        <li><a href="faq.php">Veelgestelde vragen</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="algemeneVoorwaarden.php">Algemene Voorwaarden</a></li>
+                        <li><a href="sitemap.php">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col" id="footerColCustomerService">
+                    <h2 class="footerHeader">Klantenservice</h2>
+                    <ul class="mt-3">
+                        <li><a href="orderAndDelivery.php">Bestellen en leveren</a></li>
+                        <li><a href="payments.php">Betaling</a></li>
+                        <li><a href="fairRent.php">Verhuur</a></li>
+                    </ul>
+                </div>
+                <div class="col" id="footerColContact">
+                    <h2 class="footerHeader">Contact informatie</h2>
+                    <ul class="mt-3">
+                        <li>Hogeschoollaan 1, Breda</li>
+                        <li>088-1234567</li>
+                        <li><a href="mailto:jhel@avans.nl">info@fairsoft.nl</a></li>
+                        <li>24/7 bereikbaar</li>
+                    </ul>
+                </div>
+                <div class="col" id="footerColSocialMedia">
+                    <h2 class="footerHeader">Social media</h2>
+                    <ul class="mt-3">
+                        <li><img src="../img/fb.png" alt="Facebook"></li>
+                        <li><img src="../img/twitter.png" alt="Twitter"></li>
+                        <li><img src="../img/pin.png" alt="Pinterest"></li>
+                        <li><img src="../img/yt.png" alt="Youtube"></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     {% block pageScript %}

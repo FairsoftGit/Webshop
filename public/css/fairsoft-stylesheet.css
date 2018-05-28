@@ -127,10 +127,21 @@ a:hover{
 
 @media (min-width: 576px) {  }
 
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+    /*Hide Logo in navbar*/
+    .navbar-brand{
+        padding: 7px 15px;
+        max-width: 70%;
+        display: none;
+    }
+}
 
 @media (min-width: 992px)
 {
+    .navbar-brand{
+        display:none !important;
+    }
+
     .navbar-nav {
         display: table;
         table-layout: auto;
@@ -174,7 +185,14 @@ a:hover{
 
 @media (min-width: 1200px) {  }
 
-
+.navbar-brand{
+    padding: 7px 15px;
+    max-width: 70%;
+    display: block;
+}
+#navBarImg{
+    height: 36px;
+}
 
 .breadcrumb{
     background-color: #E3DCD2;
