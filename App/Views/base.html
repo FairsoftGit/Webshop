@@ -23,13 +23,19 @@
 
     <!-- Navigation -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- Logo in navbar -->
         <a class="navbar-brand" href="/">
             <img id="navBarImg" src="../img/logo-white.png" alt="Fairsoft">
         </a>
+
+        <!-- Toggle button for collapsed navbar -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fairsoftNavbar"
                 aria-controls="fairsoftNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Actual navbar -->
         <div class="collapse navbar-collapse" id="fairsoftNavbar">
             <div class="container">
                 <ul class="navbar-nav mr-auto">
@@ -69,11 +75,14 @@
                     </li>
                 </ul>
             </div>
-                <a class="nav-link" href="/contact">
-                    <div id="shopping-cart">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                </a>
+
+            <!-- Shopping cart -->
+            <a class="nav-link" href="/contact">
+                <div id="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </a>
+            
             {% block navAccount %}
             <!--<div class="dropdown">-->
             <!--<button class="btn btn-secondary dropdown-toggle" type="button" id="accountDropdown"-->
