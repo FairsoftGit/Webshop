@@ -1,7 +1,5 @@
 {% extends "base.html" %}
 {% block title %}product.getProductName(){% endblock %}
-{% block pageCss %}
-{% endblock %}
 {% block body %}
 <div class="card content-card">
     <div class="card-header">
@@ -25,9 +23,8 @@
                         <img class="card-img-top img-fluid" src="{{product.getImgUrl()}}" alt="FairVest">
                         <hr/>
                         <div class="card-body">
-                            <h5 class="card-title">FairVest</h5>
+                            <h5 class="card-title">{{product.getProductName()}}</h5>
                             <h4>€ {{product.getSalesPrice()}}</h4>
-                            <p class="card-text">Tactical vest</p>
                         </div>
                         <div class="card-footer">
                             <a class="btn btn-fairsoft" href="/shop/addProduct/33" role="button">

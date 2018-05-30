@@ -199,6 +199,17 @@ a:hover{
     margin: 0;
 }
 
+/** OPMAAK AFBEELDING IN PAGINA **/
+.content-img-container{
+    text-align: center;
+}
+
+.content-img{
+    width:100%;
+    max-width:500px;
+    margin-top: 40px;
+}
+
 /** OPMAAK sitemap pagina **/
 #sitemap ul {
     list-style-type: none;
