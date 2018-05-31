@@ -1,0 +1,47 @@
+{% extends "Fairsoft/base.html" %}
+{% block title %}{{product.getName()}}{% endblock %}
+{% block pageCss %}
+{% endblock %}
+{% block body %}
+<div class="card content-card">
+    <div class="card-header">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{product.getName()}}</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="card-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        {{product.getDescription()}}
+                    </p>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card product-card w-75">
+                        <img class="card-img-top img-fluid" src="{{image.getRelativePath()}}" alt="FairVest">
+                        <hr/>
+                        <div class="card-body">
+                            <h5 class="card-title">FairVest</h5>
+                            <h4>€ {{product.getSalesPrice()}}</h4>
+                            <p class="card-text">Tactical vest</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-fairsoft" href="/shop/addProduct/{{product.getId()}}" role="button">
+                                <div class="addProductButton">
+                                    <i class="fas fa-plus">&nbsp;In winkelwagen</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block pageScript %}
+{% endblock %}
