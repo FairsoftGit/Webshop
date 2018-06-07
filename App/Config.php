@@ -50,4 +50,8 @@ class Config
      * @var string
      */
     const IMAGE_FOLDER = 'img';
+
+    const DEFAULT_LANGUAGE = 'nl';
+
+    const AVAILABLE_LANGUAGES =['nl' => 'Nederlands', 'en' => 'English'];
 }

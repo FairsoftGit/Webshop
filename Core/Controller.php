@@ -66,6 +66,10 @@ abstract class Controller
      */
     protected function before()
     {
+        if(!isset($this->route_params["language"]))
+        {
+            return false;
+        }
     }
 
     /**

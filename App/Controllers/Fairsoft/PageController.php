@@ -16,87 +16,88 @@ class PageController extends \Core\Controller
      *
      * @return void
      */
+
     protected function before()
     {
     }
 
     public function aboutUsAction()
     {
-        View::renderTemplate('Fairsoft/Page/index.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/index.html');
     }
 
     public function contactAction()
     {
-        View::renderTemplate('Fairsoft/Page/contact.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/contact.html');
     }
 
     public function fairAppAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairApp.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairApp.html');
     }
 
     public function fairBoxAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairBox.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairBox.html');
     }
 
     public function fairDataAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairData.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairData.html');
     }
 
     public function fairGogglesAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairGoggles.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairGoggles.html');
     }
 
     public function fairPayPlanAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairPayPlan.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairPayPlan.html');
     }
 
     public function fairRentAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairRent.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairRent.html');
     }
 
     public function fairVestAction()
     {
-        View::renderTemplate('Fairsoft/Page/fairVest.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/fairVest.html');
     }
 
     public function faqAction()
     {
-        View::renderTemplate('Fairsoft/Page/faq.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/faq.html');
     }
 
     public function howItWorksAction()
     {
-        View::renderTemplate('Fairsoft/Page/howItWorks.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/howItWorks.html');
     }
 
     public function orderAndDeliveryAction()
     {
-        View::renderTemplate('Fairsoft/Page/orderAndDelivery.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/orderAndDelivery.html');
     }
 
     public function paymentsAction()
     {
-        View::renderTemplate('Fairsoft/Page/payments.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/payments.html');
     }
 
     public function sitemapAction()
     {
-        View::renderTemplate('Fairsoft/Page/sitemap.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/sitemap.html');
     }
 
     public function techSupportAction()
     {
-        View::renderTemplate('Fairsoft/Page/techSupport.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/techSupport.html');
     }
 
     public function termsAction()
     {
-        View::renderTemplate('Fairsoft/Page/terms.html');
+        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/terms.html');
     }
 }

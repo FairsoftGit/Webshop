@@ -1,6 +1,7 @@
 <?php
 
 namespace Core;
+use \App\Config;
 
 /**
  * View
@@ -41,6 +42,7 @@ class View
     public static function renderTemplate($template, $args = [])
     {
         $args['session'] = $_SESSION;
+        $args['languages'] = Config::AVAILABLE_LANGUAGES;
         static $twig = null;
 
         if ($twig === null) {

@@ -46,7 +46,7 @@ class Product extends \Core\Model
         $db = static::getDB();
         $stmt = $db->prepare('select *, ( SELECT count(item.id) from item where item.productId = product.id) as stock from `product`');
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_CLASS, "App\Models\Product");
+        return $stmt->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, "App\Models\Product", array(null, null, null, null, null, null, null));
     }
 
     public static function delete($id)
@@ -66,20 +66,20 @@ class Product extends \Core\Model
         try {
             $return_value = '';
             $db = static::getDB();
-            $stmt = $db->prepare('CALL sp_add_product(:name, :purchPrice, :salesPrice, :rentalPrice, :discount, :description, @id)');
-            $stmt->bindParam(':name', $this->name, PDO::PARAM_STR, 50);
-            $stmt->bindParam(':purchPrice', $this->purchPrice, PDO::PARAM_STR, 10);
-            $stmt->bindParam(':salesPrice', $this->salesPrice, PDO::PARAM_STR, 10);
-            $stmt->bindParam(':rentalPrice', $this->rentalPrice, PDO::PARAM_STR, 10);
-            $stmt->bindParam(':discount', $this->discount, PDO::PARAM_STR, 10);
-            $stmt->bindParam(':description', $this->description, PDO::PARAM_STR, 1000);
-            $stmt->bindParam('@id', $return_value, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT );
+            $stmt = $db->prepare('CALL sp_add_product(:name, :purchPrice, :salesPrice, :rentalPrice, :discount, :description)');
+            $stmt->bindParam(':name', $this->name);
+            $stmt->bindParam(':purchPrice', $this->purchPrice);
+            $stmt->bindParam(':salesPrice', $this->salesPrice);
+            $stmt->bindParam(':rentalPrice', $this->rentalPrice);
+            $stmt->bindParam(':discount', $this->discount);
+            $stmt->bindParam(':description', $this->description);
+            $stmt->setFetchMode(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, 'App\Models\Product', array(null, null, null, null, null, null, null));
             $stmt->execute();
-            return $this;
+            return $stmt->fetch();
         }
         catch (PDOException $e)
         {
-            throw new \Exception('Fout opgetreden tijdens delete.');
+            throw new \Exception('Fout opgetreden tijdens insert.');
         }
     }
 
