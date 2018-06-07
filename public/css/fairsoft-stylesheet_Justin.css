@@ -39,7 +39,7 @@ a:hover{
 }
 
 #shopping-cart{
-    font-size:2em;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -85,7 +85,7 @@ a:hover{
 
 /** OPMAAK MENU **/
 
-.navbar {
+nav#fairsoft-nav.navbar {
     font-weight: bold !important;
     letter-spacing: 1px;
     border-style: solid;
@@ -97,29 +97,29 @@ a:hover{
     padding: 0 1rem;
 }
 
-.dropdown-item a:focus, .dropdown-menu > a:hover {
+nav#fairsoft-nav .dropdown-item a:focus, nav#fairsoft-nav .dropdown-menu > a:hover {
     background-color: #343a40;
     color: #F6A017;
 }
 
-.navbar-nav .nav-item .nav-link{
+nav#fairsoft-nav .navbar-nav .nav-item .nav-link{
     color: white;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+nav#fairsoft-nav .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
     color: #F6A017;
 }
 
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
+nav#fairsoft-nav .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
     color: #F6A017;
 }
 
-.dropdown-item {
+nav#fairsoft-nav .dropdown-item {
     font-weight: bold;
     color: white;
 }
 
-.navbar-nav > li.dropdown.show .dropdown-menu {
+nav#fairsoft-nav .navbar-nav > li.dropdown.show .dropdown-menu {
     background-color: #343a40;
     border-color: #F6A017;
     border-width: 0 0 0 0;
@@ -127,43 +127,32 @@ a:hover{
 
 @media (min-width: 576px) {  }
 
-@media (min-width: 768px) {
-    /*Hide Logo in navbar*/
-    .navbar-brand{
-        padding: 7px 15px;
-        max-width: 70%;
-        display: none;
-    }
-}
+@media (min-width: 768px) {  }
 
 @media (min-width: 992px)
 {
-    .navbar-brand{
-        display:none !important;
-    }
-
-    .navbar-nav {
+    nav#fairsoft-nav .navbar-nav.table-style {
         display: table;
         table-layout: auto;
         float: none;
         width: 100%;
     }
 
-    .navbar-nav > li {
+    nav#fairsoft-nav .navbar-nav.table-style > li {
         display: table-cell;
         float: none;
         text-align: center;
     }
 
-    .navbar-nav > li.dropdown.show {
+    nav#fairsoft-nav .navbar-nav.table-style > li.dropdown.show.table-style {
         position: static;
     }
 
-    .dropdown-menu {
+    nav#fairsoft-nav .dropdown-menu.table-style {
         padding: 0;
     }
 
-    .dropdown-item {
+    nav#fairsoft-nav .dropdown-item.table-style {
         width: 0;
         display: table-cell;
         height: 50px;
@@ -174,7 +163,7 @@ a:hover{
         border-width: 0 1px 1px 1px;
     }
 
-    .navbar-nav > li.dropdown.show .dropdown-menu {
+    nav#fairsoft-nav .navbar-nav > li.dropdown.show .dropdown-menu.table-style {
         display: table;
         border-width: 1px 0 0 0;
         width: 100%;
@@ -185,29 +174,11 @@ a:hover{
 
 @media (min-width: 1200px) {  }
 
-.navbar-brand{
-    padding: 7px 15px;
-    max-width: 70%;
-    display: block;
-}
-#navBarImg{
-    height: 36px;
-}
+
 
 .breadcrumb{
     background-color: #E3DCD2;
     margin: 0;
-}
-
-/** OPMAAK AFBEELDING IN PAGINA **/
-.content-img-container{
-    text-align: center;
-}
-
-.content-img{
-    width:100%;
-    max-width:500px;
-    margin-top: 40px;
 }
 
 /** OPMAAK sitemap pagina **/
