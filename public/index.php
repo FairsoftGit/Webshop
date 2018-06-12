@@ -39,8 +39,9 @@ $router->add('payments', ['controller' => 'page', 'action' => 'payments']);
 $router->add('sitemap', ['controller' => 'page', 'action' => 'sitemap']);
 $router->add('techSupport', ['controller' => 'page', 'action' => 'techSupport']);
 $router->add('terms', ['controller' => 'page', 'action' => 'terms']);
-$router->add('cart', ['controller' => 'cart', 'action' => 'index']);
 
+$router->add('cart', ['controller' => 'cart', 'action' => 'index']);
+$router->add('add_to_cart', ['controller' => 'cart', 'action' => 'add_to_cart']);
 $router->add('shop/addProduct/{id:\d+}', ['controller' => 'shop', 'action' => 'addProduct']);
 
 if(!session_id())

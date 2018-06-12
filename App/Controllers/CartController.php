@@ -34,4 +34,9 @@ class CartController extends \Core\Controller
 		View::renderTemplate('Cart/index.php', ["cart" => $cart]);
 	}
 
+	public function add_to_cartAction()
+	{
+		View::renderTemplate('Cart/add_to_cart.php');
+	}
+
 }

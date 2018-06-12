@@ -1,9 +1,4 @@
-<?php
-$productId;
-$productName;
-$salesPrice;
-$amount;
-?>
+
 {% extends "base.html" %}
 {% block title %}Winkelwagen{% endblock %}
 {% block pageCss %}

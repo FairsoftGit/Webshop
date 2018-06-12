@@ -18,7 +18,7 @@ class Cart extends \Core\Model
 	private $test = 'Test geslaagd, Jeroen!';
 	private $productId;
 	private $productName;
-	private $salesPrice
+	private $salesPrice;
 	private $amount;
 
 	// define methods

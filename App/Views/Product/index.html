@@ -29,13 +29,15 @@
                             <h4>€ {{product.getSalesPrice()}}</h4>
                             <p class="card-text">Tactical vest</p>
                         </div>
-                        <div class="card-footer">
-                            <a class="btn btn-fairsoft" href="/shop/addProduct/33" role="button">
-                                <div class="addProductButton">
-                                    <i class="fas fa-plus">&nbsp;In winkelwagen</i>
-                                </div>
-                            </a>
-                        </div>
+                        <form action="../add_to_cart" method="post">
+                            <div class="card-footer">
+                                <input type="hidden" name="productId" value="{{product.getProductId()}}">
+                                <input type="hidden" name="productName" value="{{product.getProductName()}}">
+                                <input type="hidden" name="salesPrice" value="{{product.getSalesPrice()}}">
+                                <input type="number" name="amount" value="1">
+                                <input type="submit" class="btn btn-fairsoft" name="submit" value="Toevoegen">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
