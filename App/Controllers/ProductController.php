@@ -11,6 +11,7 @@ use \Core\View;
  */
 class ProductController extends \Core\Controller
 {
+
     /**
      * Before filter. Return false to stop the action from executing.
      *

@@ -7,7 +7,6 @@
  */
 
 namespace App\Controllers;
-use App\Models\Product;
 use App\Models\Cart;
 use \Core\View;
 
@@ -31,12 +30,14 @@ class CartController extends \Core\Controller
 	public function indexAction()
 	{
 		$cart = new Cart;
-		View::renderTemplate('Cart/index.php', ["cart" => $cart]);
+		View::renderTemplate('Cart/index.html', ["cart" => $cart]);
 	}
 
 	public function add_to_cartAction()
 	{
-		View::renderTemplate('Cart/add_to_cart.php');
+		$cart = new Cart;
+		View::renderTemplate('Cart/index.html', ["cart" => $cart,
+			""]);
 	}
 
 }

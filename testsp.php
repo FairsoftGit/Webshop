@@ -1,6 +1,6 @@
 <?php
 
-//index.php
+//index.html
 
 $connect = new PDO("mysql:host=localhost;dbname=test", "root", "");
 
@@ -45,7 +45,7 @@ if(isset($_POST["add_to_cart"]))
 
 	$item_data = json_encode($cart_data);
 	setcookie('shopping_cart', $item_data, time() + (86400 * 30));
-	header("location:index.php?success=1");
+	header("location:index.html?success=1");
 }
 
 if(isset($_GET["action"]))
@@ -61,14 +61,14 @@ if(isset($_GET["action"]))
 				unset($cart_data[$keys]);
 				$item_data = json_encode($cart_data);
 				setcookie("shopping_cart", $item_data, time() + (86400 * 30));
-				header("location:index.php?remove=1");
+				header("location:index.html?remove=1");
 			}
 		}
 	}
 	if($_GET["action"] == "clear")
 	{
 		setcookie("shopping_cart", "", time() - 3600);
-		header("location:index.php?clearall=1");
+		header("location:index.html?clearall=1");
 	}
 }
 
