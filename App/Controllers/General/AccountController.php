@@ -2,6 +2,7 @@
 
 namespace App\Controllers\General;
 
+use Core\Session;
 use \Core\View;
 use App\Models\Account;
 
@@ -15,7 +16,6 @@ class AccountController extends \Core\Controller
     public function loginAction()
     {
         if($this->isAuthenticated()){
-
             header('location: /');
             exit();
         }
@@ -25,7 +25,8 @@ class AccountController extends \Core\Controller
             $password = $_POST['Password'];
             $account = Account::login($username, $password);
             if (!is_null($account) && !empty($account->getUsername())) {
-                $_SESSION["account"] = $account;
+                Session::set('account', $account);
+//                $_SESSION["account"] = $account;
                 $responseArray = array('result' => 'succes');
                 $encoded = json_encode($responseArray);
                 header('Content-Type: application/json');

@@ -1,31 +1,10 @@
 {% extends "fairsoft/base.html" %}
-{% block title %}Fairsoft{% endblock %}
 {% block body %}
-<div class="card">
-    <div class="card-header">
-        <div class="row">
-            <div class="col-10">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">Home</li>
-                    </ol>
-                </nav>
-            </div>
-           <div class="col-2">
-               <div class="dropdown">
-                   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropDownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Kies taal
-                   </a>
-                   <div class="dropdown-menu" aria-labelledby="dropDownLanguage">
-                       {% for language in languages %}
-                       <a class="dropdown-item" href="">{{ language }}</a>
-                       {% endfor %}
-                   </div>
-               </div>
-           </div>
-        </div>
-    </div>
-    <div class="card-body">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
         <h1>Wij zijn Fairsoft</h1>
         <h2>Wij houden van airsoft</h2>
         <h3>Niet van cheaten</h3>
@@ -44,6 +23,4 @@
             niet getroffen spelers.</p>
         <p>Nieuwsgierig gemaakt?</p>
         <p>Kijk bij onze producten voor meer informatie!</p>
-    </div>
-</div>
 {% endblock %}

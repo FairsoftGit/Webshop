@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     $("#loginForm").submit(function (event) {
         event.preventDefault();
-        login("/login", $(this).serialize());
+        login($(this));
     });
 });
 
@@ -54,11 +54,11 @@ function postForm(url, formData) {
     });
 }
 
-function login(url, formData) {
+function login(formObject) {
     $.ajax({
-        type: "POST",
-        url: url,
-        data: formData,
+        type: formObject.attr('method'),
+        url: formObject.attr('action'),
+        data: formObject.serialize(),
         success: function (response) {
             var alertBox;
             switch(response.result )

@@ -1,6 +1,8 @@
 <?php
 
 namespace Core;
+use App\Config;
+use App\Models\Language;
 
 /**
  * Base controller
@@ -53,10 +55,12 @@ abstract class Controller
     }
 
     public function isAuthenticated(){
-        if(isset($_SESSION['account'])){
-            return true;
+
+        if(is_null(Session::get('account')))
+        {
+            return false;
         }
-        return false;
+        return true;
     }
 
     /**
@@ -66,9 +70,21 @@ abstract class Controller
      */
     protected function before()
     {
-        if(!isset($this->route_params["language"]))
+        if(!is_null(Get::get('language')))
         {
-            return false;
+            $language = Get::get('language');
+            if(Language::exists($language))
+            {
+                Session::set('language', $language);
+            }
+//            if(array_key_exists($language, Config::AVAILABLE_LANGUAGES))
+//            {
+//                Session::set('language', $language);
+//            }
+        }
+        if(is_null(Session::get('language')))
+        {
+            Session::set('language', Config::DEFAULT_LANGUAGE);
         }
     }
 

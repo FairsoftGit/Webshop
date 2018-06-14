@@ -106,7 +106,7 @@ class Router
     public function dispatch($url)
     {
         $url = $this->removeQueryStringVariables($url);
-        $this->checkLanguage($url);
+        //$url = $this->checkLanguage($url);
         if ($this->match($url)) {
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCaps($controller);
@@ -198,26 +198,26 @@ class Router
 
     protected function checkLanguage($url)
     {
+        $browserLanguage = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+        $defaultLanguage = ( array_key_exists($browserLanguage, Config::AVAILABLE_LANGUAGES) ? $browserLanguage : Config::DEFAULT_LANGUAGE);
+
+        $queryString = array($defaultLanguage);
+        if(!empty($url))
+        {
+            array_push($queryString, $url);
+        }
+
         $lang = explode('/', $url)[0];
         $pattern = '/^[a-zA-Z]{2,2}$/';
         if (!preg_match($pattern, $lang)) {
-            $url = Config::DEFAULT_LANGUAGE . ($url === '' ? '' : DIRECTORY_SEPARATOR . $url);
-            header('location:' . $url);
-            exit();
+            $url = implode("/", $queryString);
         }
 
+        $lang = explode('/', $url)[0];
         if (!array_key_exists($lang, Config::AVAILABLE_LANGUAGES)) {
             throw new \Exception('Language not available', 404);
         }
-
-//        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-//        switch ($lang){
-//            case "en":
-//                break;
-//            case "nl":
-//                break;
-//            default:
-//        }
+        return $url;
     }
 
     /**

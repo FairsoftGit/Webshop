@@ -2,6 +2,8 @@
 
 namespace App\Controllers\Fairsoft;
 
+use Core\Session;
+use Core\Get;
 use \Core\View;
 
 /**
@@ -17,13 +19,9 @@ class PageController extends \Core\Controller
      * @return void
      */
 
-    protected function before()
-    {
-    }
-
     public function aboutUsAction()
     {
-        View::renderTemplate('Fairsoft/Page/' . $this->route_params["language"] . '/index.html');
+        View::renderTemplate('Fairsoft/Page/' . Session::get('language') . '/index.html');
     }
 
     public function contactAction()

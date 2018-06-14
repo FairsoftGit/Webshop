@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: JustinR
- * Date: 17-5-2018
- * Time: 14:57
- */
-
-namespace App\Models;
-
+namespace Core;
 
 class Session
 {

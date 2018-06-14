@@ -2,6 +2,7 @@
 
 namespace Core;
 use \App\Config;
+use App\Models\Language;
 
 /**
  * View
@@ -10,6 +11,8 @@ use \App\Config;
  */
 class View
 {
+    protected $languages = [];
+
     /**
      * Render a view file
      *
@@ -41,8 +44,10 @@ class View
      */
     public static function renderTemplate($template, $args = [])
     {
-        $args['session'] = $_SESSION;
-        $args['languages'] = Config::AVAILABLE_LANGUAGES;
+        $request_uri = self::removeQueryStringVariables($_SERVER['REQUEST_URI']);
+        $args['app']['session'] = $_SESSION;
+        $args['app']['request_uri'] = $request_uri;
+        $args['app']['languages'] = Language::getAll();
         static $twig = null;
 
         if ($twig === null) {
@@ -50,5 +55,19 @@ class View
             $twig = new \Twig_Environment($loader);
         }
         echo $twig->render($template, $args);
+    }
+
+    private static function removeQueryStringVariables($url)
+    {
+        if ($url != '') {
+            $parts = explode('&', $url, 2);
+
+            if (strpos($parts[0], '=') === false) {
+                $url = $parts[0];
+            } else {
+                $url = '';
+            }
+        }
+        return $url;
     }
 }

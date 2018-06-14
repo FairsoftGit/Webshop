@@ -29,7 +29,7 @@ $idPattern = '{id:\d+}';
 $router->add($languagePattern . '/login', ['controller' => 'accountController', 'action' => 'login', 'namespace' => 'General']);
 
 //Fairsoft
-$router->add($languagePattern, ['controller' => 'PageController', 'action' => 'aboutUs', 'namespace' => 'Fairsoft']);
+$router->add('', ['controller' => 'PageController', 'action' => 'aboutUs', 'namespace' => 'Fairsoft']);
 //$router->add('aboutUs', ['controller' => 'PageController', 'action' => 'aboutUs', 'namespace' => 'Fairsoft']);
 //$router->add('contact', ['controller' => 'PageController', 'action' => 'contact', 'namespace' => 'Fairsoft']);
 //$router->add('fairApp', ['controller' => 'PageController', 'action' => 'fairApp', 'namespace' => 'Fairsoft']);
