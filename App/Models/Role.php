@@ -17,7 +17,7 @@ class Role extends \Core\Model
     public static function getRolePerms($roleId) {
         $roleObject = new Role();
         $db = static::getDB();
-        $stmt = $db->prepare('SELECT `permissionId` FROM role_permission WHERE `roleId` = :roleId');
+        $stmt = $db->prepare('SELECT `permissionId` FROM role_permission WHERE `role_id` = :roleId');
         $stmt->bindParam(':roleId', $roleId);
         $stmt->execute();
         while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {

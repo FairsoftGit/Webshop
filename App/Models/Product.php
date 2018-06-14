@@ -44,7 +44,7 @@ class Product extends \Core\Model
     public static function getAll()
     {
         $db = static::getDB();
-        $stmt = $db->prepare('select *, ( SELECT count(item.id) from item where item.productId = product.id) as stock from `product`');
+        $stmt = $db->prepare('select *, ( SELECT count(item.id) from item where item.product_id = product.id) as stock from `product`');
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, "App\Models\Product", array(null, null, null, null, null, null, null));
     }

@@ -29,7 +29,7 @@ class Account extends \Core\Model
     protected function initRoles() {
         $this->roles = array();
         $db = static::getDB();
-        $stmt = $db->prepare('SELECT `roleId` FROM account_role WHERE `accountId` = :accountId');
+        $stmt = $db->prepare('SELECT `role_id` FROM account_role WHERE `account_id` = :accountId');
         $stmt->bindParam(':accountId', $this->id);
         $stmt->execute();
 
