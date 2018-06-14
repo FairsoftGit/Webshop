@@ -33,11 +33,21 @@ class CartController extends \Core\Controller
 		View::renderTemplate('Cart/index.html', ["cart" => $cart]);
 	}
 
-	public function add_to_cartAction()
-	{
-		$cart = new Cart;
-		View::renderTemplate('Cart/index.html', ["cart" => $cart,
-			""]);
-	}
+	public function addAction(){
+		// Set time of adding item to cookie
+		$posttime = time();
 
+		$toCookie = array(
+			"id" => $_POST['productId'],
+			"name" => $_POST['productName'],
+			"price" => $_POST['salesPrice'],
+			"amount" => $_POST['amount']
+		);
+		$json = json_encode($toCookie);
+		setcookie(1, $json);
+
+		$cookies = $_COOKIE[1];
+		var_dump(json_decode($cookies, true));
+
+	}
 }

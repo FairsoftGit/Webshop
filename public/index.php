@@ -42,7 +42,7 @@ $router->add('terms', ['controller' => 'page', 'action' => 'terms']);
 
 // cart routes
 $router->add('cart', ['controller' => 'cart', 'action' => 'index']);
-$router->add('add_to_cart', ['controller' => 'cart', 'action' => 'add_to_cart']);
+$router->add('add', ['controller' => 'cart', 'action' => 'add']);
 $router->add('shop/addProduct/{id:\d+}', ['controller' => 'shop', 'action' => 'addProduct']);
 
 if(!session_id())
