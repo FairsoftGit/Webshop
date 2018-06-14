@@ -37,6 +37,8 @@ class CartController extends \Core\Controller
 		// Set time of adding item to cookie
 		$posttime = time();
 
+		if(isset($_COOKIE[""]))
+
 		$toCookie = array(
 			"id" => $_POST['productId'],
 			"name" => $_POST['productName'],
@@ -44,7 +46,7 @@ class CartController extends \Core\Controller
 			"amount" => $_POST['amount']
 		);
 		$json = json_encode($toCookie);
-		setcookie(1, $json);
+		setcookie(items, $json, $posttime + (86400 * 30));
 
 		$cookies = $_COOKIE[1];
 		var_dump(json_decode($cookies, true));
