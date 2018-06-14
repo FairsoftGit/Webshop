@@ -19,25 +19,25 @@ class Config
      * Database host
      * @var string
      */
-    const DB_HOST = '127.0.0.1:3306';
+    const DB_HOST = '178.251.31.13:3306';
 
     /**
      * Database name
      * @var string
      */
-    const DB_NAME = 'Fairsoft';
+    const DB_NAME = 'liannela_fsdb2';
 
     /**
      * Database user
      * @var string
      */
-    const DB_USER = 'root';
+    const DB_USER = 'liannela_superuser';
 
     /**
      * Database password
      * @var string
      */
-    const DB_PASSWORD = '';
+    const DB_PASSWORD = '6Z0wKRrPyg';
 
     /**
      * Show or hide error messages on screen
@@ -50,8 +50,4 @@ class Config
      * @var string
      */
     const IMAGE_FOLDER = 'img';
-
-    const DEFAULT_LANGUAGE = 'nl';
-
-    const AVAILABLE_LANGUAGES =['nl' => 'Nederlands', 'en' => 'English'];
 }

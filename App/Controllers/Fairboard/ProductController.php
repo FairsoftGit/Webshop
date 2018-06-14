@@ -51,11 +51,11 @@ class ProductController extends \Core\Controller
             $product = $product->insert();
             if($product->getId() === null)
             {
-                $responseArray = array('result' => 'success', 'type' => 'Product');
+                $responseArray = array('result' => 'fail', 'type' => 'Product');
             }
             else
             {
-                $responseArray = array('result' => 'fail', 'type' => 'Product');
+                $responseArray = array('result' => 'success', 'type' => 'Product');
             }
 
             $encoded = json_encode($responseArray);

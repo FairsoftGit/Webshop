@@ -38,7 +38,7 @@ function postForm(url, formData) {
         success: function (response) {
             var alertBox;
             switch (response.result) {
-                case 'succes':
+                case 'success':
                     alertBox = '<div class="alert alert-success alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + response.type + ' opgeslagen.</div>';
                     break;
                 case 'duplicate':

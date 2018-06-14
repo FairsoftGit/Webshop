@@ -7,11 +7,6 @@ use App\Models\Account;
 
 class AccountController extends \Core\Controller
 {
-    public function before()
-    {
-        parent::before();
-    }
-
     public function loginAction()
     {
         if($this->isAuthenticated()){
@@ -37,7 +32,7 @@ class AccountController extends \Core\Controller
                 echo $encoded;
             }
         } else {
-            view::renderTemplate('General/Account/' . $this->route_params["language"] . '/login.html');
+            view::renderTemplate('General/Account/login.html');
         }
 
     }

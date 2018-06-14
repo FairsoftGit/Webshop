@@ -2,8 +2,6 @@
 
 namespace Core;
 
-use \App\Config;
-
 /**
  * Router
  *
@@ -26,8 +24,8 @@ class Router
     /**
      * Add a route to the routing table
      *
-     * @param string $route The route URL
-     * @param array $params Parameters (controller, action, etc.)
+     * @param string $route  The route URL
+     * @param array  $params Parameters (controller, action, etc.)
      *
      * @return void
      */
@@ -106,7 +104,7 @@ class Router
     public function dispatch($url)
     {
         $url = $this->removeQueryStringVariables($url);
-        $this->checkLanguage($url);
+
         if ($this->match($url)) {
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCaps($controller);
@@ -194,30 +192,6 @@ class Router
         }
 
         return $url;
-    }
-
-    protected function checkLanguage($url)
-    {
-        $lang = explode('/', $url)[0];
-        $pattern = '/^[a-zA-Z]{2,2}$/';
-        if (!preg_match($pattern, $lang)) {
-            $url = Config::DEFAULT_LANGUAGE . ($url === '' ? '' : DIRECTORY_SEPARATOR . $url);
-            header('location:' . $url);
-            exit();
-        }
-
-        if (!array_key_exists($lang, Config::AVAILABLE_LANGUAGES)) {
-            throw new \Exception('Language not available', 404);
-        }
-
-//        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-//        switch ($lang){
-//            case "en":
-//                break;
-//            case "nl":
-//                break;
-//            default:
-//        }
     }
 
     /**
